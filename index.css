@@ -1,0 +1,26 @@
+:root {
+  --fondo: #ffffff;
+  --principal: #0080ff;
+  --boton-principal: #ff0080;
+  --boton-texto: #ffffff;
+}
+body[class="oscuro"] {
+  --fondo: #222222;
+  --principal: #ffffff;
+  --boton-principal: #ff0080;
+  --boton-texto: #ffffff;
+}
+body {
+  background-color: var(--fondo);
+  color: var(--principal);
+}
+.boton {
+  background-color: var(--boton-principal);
+  color: var(--boton-texto);
+  width: 15em;
+  height: 4em;
+  border-color: var(--boton-principal);
+}
+.boton:hover {
+  background-color: #f90692;
+}
